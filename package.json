@@ -1,0 +1,30 @@
+{
+  "name": "tspkg",
+  "version": "1.0.0",
+  "description": "A TS package to play with.",
+  "main": "dist/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest dist/test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gene-hightower/tspkg.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "CI",
+    "github actions"
+  ],
+  "author": "Gene Hightower <gene@digilicious.com> (https://digilicious.com/)",
+  "license": "AGPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/gene-hightower/tspkg/issues"
+  },
+  "homepage": "https://github.com/gene-hightower/tspkg#readme",
+  "devDependencies": {
+    "gts": "^3.1.1"
+  }
+}
