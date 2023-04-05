@@ -7,8 +7,9 @@
     "test": "test"
   },
   "scripts": {
-    "test": "jest dist/test/*.test.js",
-    "build": "npx tsc"
+    "build": "tsc",
+    "clean": "rm -rf dist node-modules",
+    "test": "jest dist/test/*.test.js"
   },
   "repository": {
     "type": "git",
