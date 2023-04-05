@@ -6,7 +6,7 @@
 // it under the terms of the GNU Affero General Public License as published
 // by the Free Software Foundation, version 3.
 
-const world = 'world';
+const world = "world";
 
 export function hello(who: string = world): string {
   return `Hello ${who}!`;
