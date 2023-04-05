@@ -9,6 +9,7 @@
   "scripts": {
     "build": "tsc",
     "clean": "rm -rf dist node-modules",
+    "prettier": "prettier --write **/*.{ts,md}",
     "test": "jest dist/test/*.test.js"
   },
   "repository": {
@@ -29,6 +30,7 @@
   "devDependencies": {
     "@types/jest": "^29.5.0",
     "gts": "^3.1.1",
-    "jest": "^29.5.0"
+    "jest": "^29.5.0",
+    "prettier": "2.8.7"
   }
 }
